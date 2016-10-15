@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.frame7.sample"
+        versionCode = "1" 
+        version     = "1.0.0" >
+        <name>Food Connect</name>
+        <description>
+            Find the ultimate dining experience in La Union.
+        </description>
+        <author email="djmontemayor78@gmail.com" href="http://foodconnect.com">
+            Dianne Joyce B. Montemayor
+        </author>
+        <content src="index.html" />
+        <access origin="*" />
+        <icon src="icon.png" gap:platform="android" gap:qualifier="ldpi" />
+        <icon src="icon.png" gap:platform="android" gap:qualifier="mdpi" />
+        <icon src="icon.png" gap:platform="android" gap:qualifier="hdpi" />
+        <icon src="icon.png" gap:platform="android" gap:qualifier="xhdpi" />
+        <icon src="icon.png" gap:platform="android" gap:qualifier="xxhdpi" />
+        <icon src="icon.png" gap:platform="android" gap:qualifier="fr-xxhdpi" />
+		<preference name="debuggable" value="false"/>
+        <plugin name="com.indigoway.cordova.whitelist.whitelistplugin" source="pgb" spec="1.1.1" />
+        <allow-navigation href="*" />
+    </widget>
+
