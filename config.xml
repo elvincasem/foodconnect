@@ -21,7 +21,11 @@
         <icon src="icon.png" gap:platform="android" gap:qualifier="xxhdpi" />
         <icon src="icon.png" gap:platform="android" gap:qualifier="fr-xxhdpi" />
 		<preference name="debuggable" value="false"/>
-        <plugin name="com.indigoway.cordova.whitelist.whitelistplugin" source="pgb" spec="1.1.1" />
+      <plugin name="cordova-plugin-device" spec="1.1.3" source="npm" />
+<plugin name="onesignal-cordova-plugin" spec="2.0.11" source="npm" />
+<preference name="debuggable" value="false"/>
+<plugin name="cordova-plugin-whitelist" spec="1.3.0" source="npm" />
+<plugin name="cordova-plugin-inappbrowser" spec="1.5.0" source="npm" />
         <allow-navigation href="*" />
     </widget>
 
